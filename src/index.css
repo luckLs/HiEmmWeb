@@ -1,0 +1,51 @@
+.pb-2 {
+    padding-bottom: 2rem;
+}
+
+.piv-1-10 {
+    padding: 1rem 10rem
+}
+
+.selectol-label [data-slot=label] {
+    padding-top: .75rem;
+    margin-right: .3rem;
+}
+
+.w-14 {
+    width: 14rem;
+}
+
+.my_sel{
+    min-width:16rem;
+    max-width:16rem;
+}
+
+.my_sel [data-slot="mainWrapper"] {
+    max-width:200px;
+}
+
+.ml-a {
+    margin-left: auto;
+}
+
+.swal-height{
+    height: 200px;
+}
+
+.navbar header{
+    max-width:1460px;
+}
+
+.navbar .log{
+    flex-grow: 0.2;
+}
+
+.overflow-x-hidden {
+    overflow-x: hidden;
+}
+
+
+/*!**将 Tailwind 指令添加到 CSS中  -->  npx tailwindcss -i ./src/index.css -o ./dist/output.css --watch **!*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

@@ -1,0 +1,4 @@
+/*!**将 Tailwind 指令添加到 CSS中  -->  npx tailwindcss -i ./src/index.css -o ./dist/output.css --watch **!*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
